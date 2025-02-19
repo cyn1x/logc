@@ -1,7 +1,7 @@
 <div align="center">
 
 # logc
-Simple cross-platform logging library written in C with thread safety.
+Simple cross-platform logging library with thread safety written in C.
 
 </div>
 
