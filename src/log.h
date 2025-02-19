@@ -17,7 +17,6 @@ typedef enum {
     LOG_FATAL
 } log_level_t;
 
-typedef void (*log_custom_t)(bool lock);
 typedef void (*log_lock_t)(bool lock);
 
 #define log_trace(...) log_log(LOG_TRACE, __FILE__, __LINE__, __VA_ARGS__)
